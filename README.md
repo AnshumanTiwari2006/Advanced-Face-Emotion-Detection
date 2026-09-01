@@ -55,6 +55,7 @@ When a face is detected via Haar Cascades, the system does not feed the raw colo
 * **Memory Footprint:** The model weights (`emotion_model.h5`) are extremely optimized at just **872 KB**. This allows the entire inference graph to run purely on the CPU without bottlenecking the main execution thread.
 * **Inference Speed:** Fluid Real-Time Webcam Inference (<50ms latency per frame).
 * **Capability:** Resolves 7 Distinct Emotion Classes deterministically.
+* Try it out instantly and make sure it is fully loaded. 
 
 ---
 
