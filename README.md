@@ -10,7 +10,7 @@ The system captures live webcam feed, isolates faces using OpenCV's Haar cascade
 
 ---
 
-## 🛠️ Technical Architecture & Key Features
+## Technical Architecture & Key Features
 
 ### 1. Computer Vision & Inference Pipeline
 * **Face Detection:** Utilizes OpenCV's built-in `haarcascade_frontalface_default.xml` to detect multiple face bounding boxes per frame efficiently.
@@ -33,7 +33,7 @@ For analytical purposes and dataset generation, the system logs the session data
 * The peak confidence score.
 * The exact probability distribution across all 7 emotion classes.
 
-## 📂 Dataset & Pipeline Alignment
+## Dataset & Pipeline Alignment
 
 The model's foundation is built upon the standard **FER2013 Dataset**. To ensure the live webcam feed exactly matches the conditions the neural network was trained on, our real-time ingestion pipeline explicitly mirrors the dataset's constraints.
 
@@ -49,7 +49,7 @@ When a face is detected via Haar Cascades, the system does not feed the raw colo
 
 ---
 
-## 📈 Results
+## Results
 
 * **Validation Accuracy:** **~66%** *(This is the recognized benchmark ceiling for lightweight, single-model CNN architectures on the challenging FER2013 dataset in the wild).*
 * **Memory Footprint:** The model weights (`emotion_model.h5`) are extremely optimized at just **872 KB**. This allows the entire inference graph to run purely on the CPU without bottlenecking the main execution thread.
@@ -59,7 +59,7 @@ When a face is detected via Haar Cascades, the system does not feed the raw colo
 
 ---
 
-## ⚙️ Setup and Installation
+## Setup and Installation
 
 ### Prerequisites
 * Python 3.8 or higher (Tested on Python 3.12)
@@ -86,7 +86,7 @@ Ensure that your pre-trained model weights file (`emotion_model.h5`) is located 
 
 ---
 
-## 🚀 Execution
+## Execution
 
 To start the emotion detection application, run the core script from your terminal:
 
