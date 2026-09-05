@@ -99,7 +99,7 @@ python new.py
 
 ---
 
-## 📊 Data Output Format
+## Data Output Format
 Upon running the application, a file named `emotion_log.csv` will be generated or appended to in the root directory.
 
 **Sample Output:**
