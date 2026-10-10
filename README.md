@@ -109,3 +109,5 @@ timestamp,emotion,confidence,Anger,Disgust,Fear,Happy,Sad,Surprise,Neutral
 2026-06-12 21:40:02,Happy,0.8644,0.0010,0.0090,0.0190,0.8644,0.0100,0.0020,0.0946
 ```
 This structured data allows for seamless ingestion into analytical pipelines like Pandas or data visualization software to track emotional sentiment over time.
+
+Feel free to put your advises and more recommendations. 
